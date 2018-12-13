@@ -1,0 +1,53 @@
+.container {
+
+  margin: 0 auto;
+
+  padding: 20px 0;
+
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.maintoaside {
+  display: flex;
+}
+.main {
+  align-items: flex-start;
+  background-color: orange;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+}
+
+.article{
+  background-color: purple;
+  align-self: flex-end;
+  flex-direction: row;
+}
+.aside {
+  align-self: flex-start;
+  align-content: center;
+  max-width: 25%;
+  background-color: red;
+
+}
+
+
+.form {
+
+  background-color: yellow;
+  align-items: center;
+
+}
+
+
+.footer {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}

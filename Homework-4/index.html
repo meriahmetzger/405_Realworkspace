@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html>
+  <lang=en>
   <head>
     <title> Bookstore </title>
     <link rel="stylesheet" href="Style.css">
-    <meta charset=
+    <meta charset="utf-8">
     <meta name="description" content="Books in the bookstore">
     <meta name="author" content="Meriah Metzger">
-    <meta name="viewport" content=
+    <meta name="viewport" content="">
   </head>
 <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="amazon.com"> Online Bookstore </a>
-      <a href="gibsonsbookstore.com"> Local Bookstore </a>
-    </nav>
 
-    <main>
-      <h1> Here are some cool books:  </h1>
-      <p> The Stranger by Albert Camus, What We Talk About When We Talk About Love by Raymond Carver, and Down and Out in Paris and London by George Orwell. </p>
-      <article>
-        <h1> A description of The Stranger </h1>
-        <p>L’Étranger (The Outsider [UK], or The Stranger [US]) is a 1942 novel by French author Albert Camus. Its theme and outlook are often cited as examples of Camus's philosophy of the absurd and existentialism, though Camus personally rejected the latter label.
-        </p>
-      </article>
-      <article>
+    <div class="container">
+    <div class="nav">
+      <a rel="Home" href="index.html">Home</a>
+      <a href="http://www.amazon.com"> Online Bookstore</a>
+      <a href="http://www.gibsonsbookstore.com"> Local Bookstore</a>
+    </div>
 
-    </main>
+    <div class="maintoaside">
+       <div class="maintoarticle">
+        <div class="main">
+          <h1> Here are some cool books:  </h1>
+          <p> <em>The Stranger</em> by Albert Camus, <em>What We Talk About When We Talk About Love</em> by Raymond Carver, and <em>Down and Out in Paris and London</em> by George Orwell. </p>
+        </div>
+        <div class= "article">
+            <h1> A description of <em>The Stranger</em> </h1>
+            <p><em>L’Étranger (The Outsider</em> [UK], or The <em>Stranger</em> [US]) is a 1942 novel by French author Albert Camus. Its theme and outlook are often cited as examples of Camus's philosophy of the absurd and existentialism, though Camus personally rejected the latter label.
+            </p>
 
-    <aside>
-    </aside>
 
-    <footer>
-    </footer>
+
+            <h2> A description of <em>What We Talk About When We Talk About Love</em> </h2>
+              <p><em>What We Talk About When We Talk About Love</em>is a 1981 collection of short stories by American writer Raymond Carver, as well as the title of one of the stories in the collection. </p>
+
+
+            <h3> A description of <em>Down and Out in Paris and London</em></h3>
+              <p> <em>Down and Out in Paris and London</em> is the first full-length work by the English author George Orwell, published in 1933. It is a memoir[2] in two parts on the theme of poverty in the two cities. The first part is an account of living in near-destitution in Paris and the experience of casual labour in restaurant kitchens. The second part is a travelogue of life on the road in and around London from the tramp's perspective, with descriptions of the types of hostel accommodation available and some of the characters to be found living on the margins.</p>
+        </div>
+        </div><!-- end maintoarticle -->
+
+        <div class="aside">
+          <h1> Books Made Into Movies </h1>
+          <h2> Boy Erased </h2>
+          <p> Based on the memoir by Garrard Conley and adapted, directed by and featuring Joel Edgerton, this movie tells the story of a Baptist pastor’s gay son who undergoes conversion therapy. Lucas Hedges, Nicole Kidman and Russell Crowe star in the movie.
+          </p>
+        </div>
+    </div><!-- end maintoaside -->
+
+
+    <div class="form">
+      <h1> Join the Book Club! </h1>
+        <form>
+          First name:<br>
+          <input type="text" name="firstname"> <br>
+          Last name:<br>
+          <input type="text" name="lastname">
+          <br>
+          Email:<br>
+          <input type="text" name="email"> <br>
+          Favorite Book: <br>
+          <input type="text" name="favbook">
+          <input type="submit" value="Submit">
+
+        </form>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <a rel="Home" href="index.html">Home</a>
+    <a href="http://www.amazon.com"> Online Bookstore</a>
+    <a href="http://www.gibsonsbookstore.com"> Local Bookstore</a>
+  </div>
+
+
 
 
 
